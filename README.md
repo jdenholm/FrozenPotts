@@ -1,2 +1,2 @@
 # FrozenPotts
-Zero temperature Potts model
+Fun with the zero-temperature Potts model
