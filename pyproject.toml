@@ -1,0 +1,16 @@
+[project]
+
+name = "PottsFreeze"
+
+version = "0.0.0"
+
+description = "Freezing of the zero-temperature Potts model."
+
+authors = [
+  { name="Jim Denholm", email="jd949@cam.ac.uk" },
+]
+readme = "README.md"
+
+
+[tool.setuptools.packages]
+find = {}
