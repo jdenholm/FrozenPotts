@@ -10,3 +10,5 @@ dependencies:
   - pytest
   - pydocstyle
   - pylint
+  - numpy
+  - numba

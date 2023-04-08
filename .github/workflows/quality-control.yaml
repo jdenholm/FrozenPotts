@@ -33,11 +33,11 @@ jobs:
 
     - name: Format with black
       run: |
-        black $(git ls-files torch_tools)
+        black $(git ls-files potts_freeze)
 
     - name: Lint with Pylint
       run: |
-        pylint $(git ls-files torch_tools)
+        pylint $(git ls-files potts_freeze)
 
     - name: Test with pytest
       run: |
@@ -45,8 +45,8 @@ jobs:
 
     - name: Lint with Mypy
       run: |
-        mypy $(git ls-files torch_tools)
+        mypy $(git ls-files potts_freeze)
 
     - name: Lint with Pydocstyle
       run : |
-        pydocstyle $(git ls-files torch_tools) --convention=numpy
+        pydocstyle $(git ls-files potts_freeze) --convention=numpy
