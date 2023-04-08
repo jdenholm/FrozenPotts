@@ -1,4 +1,4 @@
-name: torch-tools
+name: potts-freeze
 channels:
   - anaconda
 dependencies:
